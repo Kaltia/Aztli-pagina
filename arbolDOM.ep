@@ -251,4 +251,16 @@
                 </textPath>
             </text>
 
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:arrow" id="712124684f8d4cef8a3ad47f9436b2f7" transform="matrix(0.5,-0.8660253882408142,0.8660253882408142,0.5,93.6891098022461,75.80126953125)"><p:metadata><p:property name="startPin"><![CDATA[46,29]]></p:property><p:property name="endPin"><![CDATA[100,70]]></p:property><p:property name="withStartArrow"><![CDATA[true]]></p:property><p:property name="withEndArrow"><![CDATA[true]]></p:property><p:property name="mode"><![CDATA[curvy]]></p:property><p:property name="detached"><![CDATA[false]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[2|]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+            <defs>
+                <path style="stroke-linejoin: round; fill: none;" p:name="path" id="03d0eac484a0482eafc1b9263c13b808" d="M 47 37 L 46 29 L 54 28 M 46 29 C 73 49 73 49 100 70 M 99 62 L 100 70 L 92 71"/>
+            </defs>
+            <use xlink:href="#03d0eac484a0482eafc1b9263c13b808" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="10" stroke-opacity="0" stroke="#FF0000"/>
+            <use xlink:href="#03d0eac484a0482eafc1b9263c13b808" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="outArrow1" id="b90c6576c1fc44d89ac52cd2fe4edfce" style="stroke: rgb(27, 50, 128); stroke-opacity: 1; stroke-width: 2;"/>
+            <text p:name="text" id="15ccfd5809e94505975294b4782567ff" style="fill: rgb(0, 0, 0); fill-opacity: 1; font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <textPath xlink:href="#03d0eac484a0482eafc1b9263c13b808" xmlns:xlink="http://www.w3.org/1999/xlink" startOffset="50%" text-anchor="middle" alignment-baseline="middle">
+                    <tspan dy="-4.333333333333333" p:name="textSpan" id="1bbd4b6d8ff94cfa9773bf76dd24bb2d" dx="0"></tspan>
+                </textPath>
+            </text>
+
         </g></Content></Page></Pages></Document>
