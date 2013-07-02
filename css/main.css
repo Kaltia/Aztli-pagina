@@ -1,3 +1,15 @@
+@font-face
+{
+    font-family:"junc-web";
+    src:url("junc-web.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family:"jinky";
+    src:url("JINKY.ttf") format("truetype");
+}
+
 *
 {   
     border:0px;
@@ -8,7 +20,39 @@
 
 body
 {
-    background:#222;
-    color:#FFF;
+    background: -webkit-radial-gradient(center, circle cover, #cccccc, #1a1a1a);
+    background: -moz-radial-gradient(center, circle cover, #cccccc, #1a1a1a);
+    color:#000;
+    font-family:"junc-web";
     font-size:16px;
+}
+
+header a img
+{
+    display:block;
+    height:70px;
+    padding:5px;
+    width:132px;
+}
+
+nav ul li a img
+{
+/*    border:5px solid #000;*/
+    display:block;
+    height:45px;
+    padding:5px;
+    width:50px;
+}
+nav ul li a img:hover
+{
+    background:rgba(255,255,255,0);
+    box-shadow: rgba(0,0,0,1) 0px 5px 10px;
+}
+
+section
+{
+    display:block;
+    margin:0 2% 7em 5em;
+    position:center;
+    width:40%;
 }
