@@ -1,0 +1,87 @@
+@font-face
+{
+    font-family:"junc-web";
+    src:url("junc-web.ttf") format("truetype");
+}
+
+@font-face
+{
+    font-family:"jinky";
+    src:url("JINKY.ttf") format("truetype");
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+html,body{
+width:100%;
+height:100%;
+}
+
+body{
+    font-family:"chela One", cursive;
+    background:green;
+}
+
+a img{
+    height:60px;
+    text-decoration:none;
+    color:#fff;
+    width:60px;
+}
+
+a img :hover{
+    color:#ffc400;
+}
+
+p{
+    padding-top:20%;
+    width:100%;
+    color:#fff;
+    text-align:center;
+    font-size:6em;
+    -webkit-text-stroke:1px #000;
+}
+
+ul{
+    display:inline-block;
+    list-style:none;
+}
+
+#imgfixed a img
+{
+    display:inline-block;
+    height:20%;
+    left:1%;
+    position:fixed;
+    top:2%;
+    width:20%;
+}
+
+#s1,#s2,#s3
+{
+    float:right;
+    width:100%;
+    height:100%;
+
+}
+
+#s1{
+    background:-moz-radial-gradient(center,circle cover, #cccccc, #1a1a1a);
+}
+#s2{
+    background:-moz-radial-gradient(center,circle cover, #cccccc, #1a1a1a);
+}
+#s3{
+    background:-moz-radial-gradient(center,circle cover, #cccccc, #1a1a1a);
+}
+
+.fixed{
+    left:5%;
+    z-index:999;
+    position:fixed;
+    width:20%;
+    top:40%;
+}
